@@ -1,0 +1,245 @@
+.blue{
+  width: 100vw;
+   height: 70vh;
+
+}
+.blue1{
+  width: 100vw;
+   height: 70vh;
+background-color: rgb(0, 94, 254);
+}
+.blue2{
+  width: 100vw;
+   height: 70vh;
+   background-color: rgb(36, 0, 255);
+
+}
+.jdl{
+  font-family: 'Montaga', serif;
+  color: white;
+}
+.mid{
+  top: 50%;left: 50%;
+}
+.grey{
+  width: 100vw;
+   height: 50vh;
+}
+.red{
+  background-color: #4f81c5;
+  width: 100vw;
+   height: 70vh;
+}
+.strike {
+display: block;
+text-align: center;
+overflow: hidden;
+white-space: nowrap;
+}
+
+.strike > div > span {
+position: relative;
+display: inline-block;
+top: 50%;
+}
+.cont{font-family: 'Karma', serif;
+  color: white;
+}
+.cnt{
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+}
+
+.strike > div > span:before,
+.strike > div > span:after {
+content: "";
+position: absolute;
+top: 50%;
+width: 9999px;
+height: 3px;
+background: white;
+}
+.mid{
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.strike > div > span:before {
+right: 100%;
+margin-right: 15px;
+}
+
+.strike > div > span:after {
+left: 100%;
+margin-left: 15px;
+}
+
+.containera {
+  position: relative;
+  max-width: 800px;
+
+
+    overflow: hidden;
+}
+
+.containera img {vertical-align: middle;
+  max-width: 100%;
+
+    -moz-transition: all 4s;
+    -webkit-transition: all 4s;
+    transition: all 4s;}
+
+
+.containera .contenta {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+img:hover{
+
+  -moz-transform: scale(2.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.pl{
+  background-color: rgb(0, 17, 171);
+  width: 100vw;
+   height: 50vh;
+}
+.pls{
+  /* background-image: url(../img/iadel.jpg); */
+  background-color: rgb(0, 5, 129);
+  width: 100vw;
+   height: 50vh;
+}
+.ssd{
+  font-size: 50px;
+}
+.ss{
+  opacity: 0;
+  transition: .5s;
+}
+.ssa{
+  opacity: 0;
+  transition: .5s;
+}
+
+.fnt{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.fntl{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white
+}
+.contents {
+        padding: 20px 30px;
+        background-color: #dcdcdc;
+        position: relative;
+        border-radius: 6px;
+    }
+div.event_desc {
+    transform: rotate(-90deg);
+    transform-origin: right bottom 0;
+    float: left;
+
+}
+.lft{
+background-color: #dcdcdc;
+height:     100%
+}.vl {
+border-right: 6px solid #dcdcdc;
+height: 500px;
+}
+.con_cent{
+  position: relative;
+  top: 20%;
+  font-family: 'Bellefair', serif;
+  color: white;
+}
+.con_cent > h5{
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.c-icon {
+  width:  36px;
+  height: 36px;
+  fill: currentColor;
+  transition: .2s;
+}
+
+.c-link--facebook:hover  { color: #3b5998 }
+.c-link--twitter:hover   { color: #55acee }
+.c-link--instagram:hover { color: #833ab4 }
+.c-link--facebook:hover::after  { background: #3b5998 }
+.c-link--twitter:hover::after   { background: #55acee }
+.c-link--instagram:hover::after { background: #833ab4 }
+
+.c-link {
+  position: relative;
+  color: #bbb;
+}
+
+.c-link:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+.c-tooltip::before,
+.c-tooltip::after {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -10px);
+  opacity: 0;
+  transition: .2s;
+}
+
+.c-tooltip::before {
+  content: '';
+  bottom: calc(100% + 2px);
+  border: solid 5px transparent;
+  border-top-color: currentColor;
+}
+
+.c-tooltip::after {
+  content: attr(aria-label);
+  bottom: calc(100% + 12px);
+  padding: .61em .93em;
+  font-size: .875rem;
+  color: white;
+  border-radius: 3px;
+}
+.po{
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+
+.c-tooltip:hover::before,
+.c-tooltip:hover::after {
+  opacity: 1;
+  transform: translate(-50%);
+}
+
+.pens-link-container {
+  flex-basis: 100%;
+  font-size: .9rem;
+  text-align: center;
+}
+
+.pens-link {
+  margin-bottom: 0;
+  background: white;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, .1);
+  border: none;
+}
